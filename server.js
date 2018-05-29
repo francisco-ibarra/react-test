@@ -1,6 +1,3 @@
-/*import { createServer } from 'https';
-import express from 'express';
-import path from 'path';*/
 
 //const { createServer } = require('https');
 const { createServer } = require('http');
