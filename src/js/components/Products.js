@@ -12,7 +12,6 @@ export default class Products extends Component {
         super(props);
         this.updateProducts = this.updateProducts.bind(this);
         this.state = {
-            //products: ProductStore.getProducts()
             products: [],
             fetched: false,
             fetching: false,
