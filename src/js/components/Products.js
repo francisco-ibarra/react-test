@@ -28,7 +28,6 @@ export default class Products extends Component {
 
     componentWillMount() {
         ProductStore.on("change", this.updateProducts);
-        console.log('count: ',ProductStore.listenerCount("change"));
     }
 
     componentWillUnmount() {
